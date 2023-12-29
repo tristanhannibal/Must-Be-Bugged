@@ -1,0 +1,60 @@
+:root {
+    --background-colour: #181818;
+    --text-colour-dark-1: #ffffff;
+    --text-colour-dark-2: rgba(235, 235, 235, 0.64);
+    --text-colour-green: hsla(160, 100%, 37%, 1);
+    --color-heading: var(--text-colour-dark-1);
+    --text-colour-indigo: hsl(210, 72%, 44%);
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text-colour-dark-2);
+    background: var(--background-colour);
+    text-rendering: optimizeLegibility;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+}
+
+a,
+.green {
+    text-decoration: none;
+    color: rgb(0, 189, 126);
+    transition: 0.4s;
+    padding: 3px;
+}
+
+.indigo {
+    color: var(--text-colour-indigo)
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        place-items: center;
+    }
+
+    #app {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 2rem;
+    }
+}
