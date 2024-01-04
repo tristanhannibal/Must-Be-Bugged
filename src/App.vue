@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 import MainPage from './components/MainPage.vue'
+import DragonPopup from './components/DragonPopup.vue';
 
 </script>
 
@@ -14,7 +15,7 @@ import MainPage from './components/MainPage.vue'
     </nav>
   </header>
   <RouterView />
-
+  <DragonPopup></DragonPopup>
 </template>
 
 <style scoped>
@@ -46,6 +47,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  font-size: 2em;
 }
 
 nav a:first-of-type {

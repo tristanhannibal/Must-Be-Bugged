@@ -8,6 +8,7 @@
 }
 
 body {
+    font-size: 130%;
     min-height: 100vh;
     color: var(--text-colour-dark-2);
     background: var(--background-colour);

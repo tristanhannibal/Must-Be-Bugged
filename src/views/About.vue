@@ -22,7 +22,7 @@ import AboutItem from '../components/AboutItem.vue'
         <template v-slot:title>Progress</template>
         <template v-slot:body><p>
           <ul>
-            <li>Amirdrassil, the Dream's Hope: <a href="https://www.warcraftlogs.com/embed/guild-progress-tile/35?difficulty=5&guild=688437">4/9M</a></li>
+            <li>Amirdrassil, the Dream's Hope: <a href="https://www.warcraftlogs.com/embed/guild-progress-tile/35?difficulty=5&guild=688437">5/9M</a></li>
             <li>Aberrus, the Shadowed Crucible: <span class="indigo">6/9M</span></li>
           </ul>
         </p></template>
@@ -57,7 +57,7 @@ import AboutItem from '../components/AboutItem.vue'
       display: flex;
       flex-direction: column;
       justify-content: center;
-      max-width: 450px;
+      max-width: 700px;
       align-items:normal;
     }
   }
