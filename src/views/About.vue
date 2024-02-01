@@ -27,7 +27,7 @@ import AboutItem from '../components/AboutItem.vue'
         <ul>
           <li>Amirdrassil, the Dream's Hope: <a
               href="https://www.warcraftlogs.com/embed/guild-progress-tile/35?difficulty=5&guild=688437">6/9M</a></li>
-          <li>Aberrus, the Shadowed Crucible: <span class="indigo">6/9M</span></li>
+          <li>Aberrus, the Shadowed Crucible: <span class="indigo">7/9M</span></li>
         </ul>
         </p>
       </template>
